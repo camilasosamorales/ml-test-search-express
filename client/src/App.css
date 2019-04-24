@@ -1,0 +1,144 @@
+
+body {
+  background-color: #EEEEEE;
+  min-width: 980px;
+}
+
+.bg-brand {
+  background-color: #FFE600;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.form-inline {
+  vertical-align: middle;
+  display: inline-block;
+  flex: 1;
+  margin-left: 30px;
+}
+
+.form-inline input[type="text"] {
+    font-size:18px;
+}
+
+.search-button {
+  background-color: #EEEEEE;
+  background-image: -webkit-linear-gradient(#fff,#f1f1f1);
+  background-image: linear-gradient(#fff,#f1f1f1);
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+/* Search Page */
+.search-page {
+    max-width: 1000px;
+}
+.search-page-results {
+    margin: 50px 0;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+/* ProductDetails */
+.product-page {
+    max-width: 1000px;
+}
+.product-details {
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 50px 0;
+}
+.product-details-gallery {
+    padding: 30px;
+}
+.product-details-description {
+    padding: 32px;
+}
+.product-details-description-title {
+    font-size: 28px;
+    margin: 40px 0 32px;
+}
+.product-details-description-text {
+    font-size: 16px;
+    color: #888;
+    margin: 0px;
+}
+.product-details-sidebar {
+    padding: 32px;
+}
+.product-details-sidebar-info {
+    font-size: 14px;
+}
+.product-details-sidebar-title {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px 0 32px;
+}
+.product-details-sidebar-price {
+    font-size: 46px;
+}
+.product-details-sidebar-purchase-btn {
+    margin-top: 32px;
+    background-color: #3483FA;
+}
+.product-item {
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, .08);
+}
+.product-item:last-child {
+    border-bottom: 0;
+}
+.product-item-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+}
+.product-item-image-view {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+}
+.product-item-body {
+    padding: 10px 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.product-item-body-price > a {
+    font-size: 21px;
+    padding-bottom: 16px;
+    color: #1a1a1a;
+}
+.product-item-body-title {
+    padding-top: 16px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.product-item-location {
+    width: 200px;
+    font-size: 12px;
+    padding: 15px 0px;
+}
+.product-item-shipping {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+/*Circle material*/
+.circle-align{
+    text-align: center;
+    min-height: 400px;
+}
+
+.circle-position{
+    margin-top: 200px;
+}
