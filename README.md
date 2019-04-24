@@ -10,7 +10,7 @@ It's important to have node installed. If you don't have it, install it please.
 
 ### Installing
 
-After cloning the repo https://github.com/camilasosamorales/ml-test-search.git, you should go to the root folder and run
+After cloning the repo https://github.com/camilasosamorales/ml-test-search-express.git, you should go to the root folder and run
 
 #### `npm install                                                                                                  `
 
