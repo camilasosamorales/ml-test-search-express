@@ -19,15 +19,9 @@ It will install all the recuried dependencies.
 Also run it on the client folder. 
 
 ### Running
-Once all the dependencies are installed, run the express server. On the root folder, run the command
+Once all the dependencies are installed, go to the client folder and run
 
-#### `node server.js                                                                                                  `
-
-It will run the express server on port 5000.
-
-Now, run the react app. Go to the client folder
-
-#### `npm start                                                                                                  `
+#### `npm run dev                                                                                                  `
 
 It will launch the app on http://localhost:3000
 
