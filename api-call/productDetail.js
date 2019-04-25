@@ -8,11 +8,9 @@ const productDetail = (id) => {
         axios.get(`${api_URLBase}/${id}/description`)
     ])
         .then(axios.spread((product, description) => {
-            console.log('no hay error');
             return transformDataResult(product.data, description.data);
         }))
         .catch((err) => {
-            console.log('FAIL');
             return err;
         });
 };
