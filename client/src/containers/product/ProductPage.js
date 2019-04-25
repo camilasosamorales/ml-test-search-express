@@ -23,22 +23,26 @@ class ProductPage extends Component {
         const idProduct = arrayParam[2];
 
         fetch("/items/" + idProduct)
-            .then(data => data.json())
+            .then((data) => {
+                if (data.status !== 200) {
+                    throw new Error("Not 200 response");
+                } else {
+                     return data.json();
+                }
+            })
             .then((res) => {
                 this.setState({
                     results: res,
                     isFetching: false
                 });
             })
-            .catch((error) =>{
+            .catch((error) => {
                 this.setState({
                     isFetching: false,
                     error: true
                 });
             });
     }
-
-    
     render() {
         let { results } = this.state;
         return (

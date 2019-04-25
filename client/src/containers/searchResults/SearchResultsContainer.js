@@ -20,6 +20,8 @@ class SearchResultsContainer extends Component {
             .then(data => data.json())
             .then((res) => {
                 this.setState({ results: res.items, oldValue: q });
+            }).catch((error) => {
+                this.setState({ results: null, oldValue: q });
             });
     }
 

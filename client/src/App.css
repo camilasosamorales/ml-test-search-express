@@ -55,6 +55,7 @@ body {
 }
 .product-details-gallery {
     padding: 30px;
+    text-align: center;
 }
 .product-details-description {
     padding: 32px;

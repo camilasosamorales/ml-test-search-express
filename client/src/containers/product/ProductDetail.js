@@ -7,7 +7,7 @@ const ProductDetails = (props) => {
     return (
         <div className="product-details">
             <div className="row">
-                <div className="col">
+                <div className="col-8">
                     <div className="product-details-gallery">
                         <img src={product.picture} alt='Product' />
                     </div>
